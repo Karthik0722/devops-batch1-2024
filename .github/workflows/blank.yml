@@ -5,8 +5,7 @@ name: SimpleCICD
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
-  push:
-    branches: [ "master" ]
+ 
   pull_request:
     branches: [ "master" ]
 
@@ -31,6 +30,11 @@ jobs:
       - name: show demo file contentents
         run: cat demo.txt
       -name: create new file
-       run touch file1.tt
+       run touch file1.txt
+      -name: list the files
+       run: ls
+      -name: create directory
+       run: mkdir demo2024
+       
 
      
