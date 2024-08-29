@@ -25,9 +25,6 @@ jobs:
       - name: show date
         run: date
 
-      - name: show demo file contents
-        run: cat text.txt
-
       - name: create new file
         run: touch file1.txt
 
