@@ -35,4 +35,4 @@ jobs:
         run: ls
 
       - name: create directory
-        run: mkdir demo2024
+        run: mkdir demo02024
